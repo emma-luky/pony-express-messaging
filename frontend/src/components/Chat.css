@@ -1,0 +1,100 @@
+.chats-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-list-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    max-width: 50vh;
+    margin: 0 20px;
+}
+
+.message-list-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    width: 100vh;
+    margin: 0 20px;
+}
+
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.chat-list-item {
+    display: grid;
+    grid-template-columns: 10fr 8fr 2fr;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 10px;
+    align-items: center;
+    background-color: purple;
+    color: lightgreen;
+}
+
+.message-list-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 10px;
+    background-color: purple;
+    color: lightgreen;
+}
+
+.chat-list-item:hover {
+    background-color: blueviolet;
+    color: greenyellow;
+}
+
+.chat-list-item:focus {
+    box-shadow: 0 0 7px 0 yellow;
+}
+
+.chat-list-item-name {
+    font-weight: bolder;
+}
+
+.message-list-item-userID {
+    font-weight: bolder;
+}
+
+.chat-list-item-detail {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    color: orange
+}
+
+.message-list-item-date {
+    font-size: x-small;
+    color: orange
+}
+
+.chat-card-attr {
+    border: 1px dashed darkslateblue;
+    padding: 10px;
+}
+
+.message-list-text{
+    font-size: x-small;
+    color: orange
+}
+
+.message-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
